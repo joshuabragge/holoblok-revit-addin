@@ -3,7 +3,7 @@
 Holo Blok DLL Plugin for Revit 2018
 ===================================
 
-This plugin suppliments features for AutoDesk's [Revit][revit] 2018. This is built for the designers and architects at [Holo Blok] [holo-blok].
+This plugin suppliments features for AutoDesk's [Revit][revit] 2018. This is built for the designers and architects at [holo blok][holo-blok].
 
 [revit]: https://www.autodesk.com/products/revit/overview
 [holo-blok]: http://holo-blok.com/
@@ -18,6 +18,12 @@ This plugin suppliments features for AutoDesk's [Revit][revit] 2018. This is bui
 * [Changelog](https://github.com/joshuabragge/holoblok-revit-addin/blob/master/NEWS.md#readme)
 
 # Features
+
+The DLL adds the holo blok tab to Revit 2018.
+
+[![revit-addin-ribbon](https://github.com/joshuabragge/holoblok-revit-addin/blob/master/images/holo_blok_ribbon_in_revit.JPG)]
+
+[![revit-addin-functions](https://github.com/joshuabragge/holoblok-revit-addin/blob/master/images/holo_blok_current_functions_in_revit.JPG)]
 
 ## Replace Font
 
