@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">x
+    <Name>Holo Blok Revit Addin</Name>
+    <Assembly>holoblok-revit.dll</Assembly>
+    <ClientId>2ce0a89a-68ea-4783-bf82-dce275037b69</ClientId>
+    <FullClassName>holoblok.App</FullClassName>
+    <VendorId>Holo blok</VendorId>
+    <VendorDescription>Holo blok, www.holoblok.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

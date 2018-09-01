@@ -1,0 +1,8 @@
+C:\Users\Jimmy\AppData\Roaming\Autodesk\Revit\Addins\2018\holoblok.addin
+C:\Users\Jimmy\AppData\Roaming\Autodesk\Revit\Addins\2018\holoblok.dll
+C:\Users\Jimmy\AppData\Roaming\Autodesk\Revit\Addins\2018\holoblok.pdb
+C:\Users\Jimmy\Google Drive\Holoblok\CNC\New folder\holoblok-internal\obj\Debug\holoblok.g.resources
+C:\Users\Jimmy\Google Drive\Holoblok\CNC\New folder\holoblok-internal\obj\Debug\holoblok.csproj.GenerateResource.Cache
+C:\Users\Jimmy\Google Drive\Holoblok\CNC\New folder\holoblok-internal\obj\Debug\holoblok.dll
+C:\Users\Jimmy\Google Drive\Holoblok\CNC\New folder\holoblok-internal\obj\Debug\holoblok.pdb
+C:\Users\Jimmy\Google Drive\Holoblok\CNC\New folder\holoblok-internal\obj\Debug\replacefont.frmSelectFonts.resources
