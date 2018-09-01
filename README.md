@@ -52,7 +52,7 @@ For example, user Jimmy with Revit 2018 might place the files here:
 C:\Users\Jimmy\AppData\Roaming\Autodesk\Revit\Addins\2018
 ```
 
-More instructions can be found [on the Revit help].[revit-help]
+More instructions can be found [on the Revit help.][revit-help]
 
 [revit-help]: https://knowledge.autodesk.com/support/revit-products/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Revit-Customize/files/GUID-17C8D2AA-584B-4E24-9521-CDCD7CFD731D-htm.html
 [DLL-download]: https://github.com/joshuabragge/holoblok-revit-addin/blob/master/release/holoblok-revit.dll
