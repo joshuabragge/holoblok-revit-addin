@@ -13,7 +13,7 @@ This plugin suppliments features for AutoDesk's [Revit][revit] 2018. This is bui
 * [Features](#features)
     - [Replace Font](#replace-font)
     - [About Us](#about-us)
-* [Installation] (#installation)
+* [Installation](#installation)
 * [Building](#building)
 * [Changelog](https://github.com/joshuabragge/holoblok-revit-addin/blob/master/NEWS.md#readme)
 
@@ -33,7 +33,7 @@ More information about holo blok, but you can find that information [here][holo-
 
 To get started, you will need to download or build the following:
 * [holo blok Revit DLL][DLL-download].
-* [holo blok addin] [addin-download].
+* [holo blok addin][addin-download].
 
 All of the above must be dropped into the Revit Addin folder for example:
 ```
