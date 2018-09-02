@@ -26,17 +26,19 @@
     <InterMediateOutputPath>obj\Debug</InterMediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
-    <OutputPath>..\..\..\..\..\AppData\Roaming\Autodesk\Revit\Addins\2018\</OutputPath>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyName>holoblok-revit</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <OutputPath>..\..\..\..\..\AppData\Roaming\Autodesk\Revit\Addins\2018\</OutputPath>
     <UseVSHostingProcess>true</UseVSHostingProcess>
+    <OutputPath>bin\Debug\</OutputPath>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
@@ -90,8 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
-    <Folder Include="Resources\font-changer\" />
-    <Folder Include="Resources\holoblok-logo\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="holoblok-revit.addin">
@@ -106,4 +106,7 @@
     <Resource Include="Resources\holoblok_original.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /s /y $(TargetDir.TrimEnd('\')) C:\Users\Jimmy\AppData\Roaming\Autodesk\Revit\Addins\2018</PostBuildEvent>
+  </PropertyGroup>
 </Project>
