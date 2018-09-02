@@ -29,7 +29,7 @@ The DLL adds the holo blok tab to Revit 2018.
 
 ![Replace Font](https://github.com/joshuabragge/holoblok-revit-addin/blob/master/images/holo_blok_replace_fonts_function.JPG)
 
-Replaces the selected font with another for the entire workbook. [This was modified from a macro made by ArchSmarter.] [replace-font-macro].
+Replaces the selected font with another for the entire workbook. [This was modified from a macro made by ArchSmarter.][replace-font-macro].
 
 [replace-font-macro]: https://archsmarter.com/revit-replace-fonts/
 

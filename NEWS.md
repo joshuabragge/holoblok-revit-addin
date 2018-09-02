@@ -4,7 +4,9 @@
 
 *2018-08-31*
 
-* Cleaned up a lot of the riff raff and uploaded to github.
+* Cleaned up a lot of the riff raff.
+* Uploaded to github.
+* Added assembly info
 
 ## v1.0
 
