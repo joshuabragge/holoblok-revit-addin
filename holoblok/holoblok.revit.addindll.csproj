@@ -84,15 +84,14 @@
       <DependentUpon>ReplaceFont.cs</DependentUpon>
     </Compile>
     <Compile Include="Functions\RevitUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Functions\ReplaceFont\frmSelectFonts.resx">
       <DependentUpon>frmSelectFonts.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="holoblok-revit.addin">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
