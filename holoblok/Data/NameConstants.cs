@@ -9,7 +9,7 @@ namespace holoblok.Data
     public class NameConstants
     {
         // Ribbon
-        public const string ribbonTabOne = "Holo blok";
+        public const string ribbonTabOne = "holo blok";
 
         // Categories for ribbon
         public const string categoryOne = "Appearance";
