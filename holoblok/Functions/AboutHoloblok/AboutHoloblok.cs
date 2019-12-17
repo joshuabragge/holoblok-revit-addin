@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 using Autodesk.Revit.ApplicationServices;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.UI;
@@ -23,9 +18,8 @@ namespace holoblok.revit.addindll.about
             TaskDialog mainDialog = new TaskDialog("holo-blok");
             mainDialog.MainInstruction = "what's in the blok?";
             mainDialog.MainContent =
-                    "holo-blok is a technology service company. The idea behind holo-blok is simple:"
-                    + " connect any two points (a need and a solution) with a straight line of expertise."
-                    + "Do it well and do it fast.";
+                    "We believe the act of building buildings should be more efficient."
+                    + "So we built So we built holo - blok to do just that";
 
             // Add commmandLink options to task dialog
             mainDialog.AddCommandLink(TaskDialogCommandLinkId.CommandLink1, "Contact");
@@ -47,8 +41,7 @@ namespace holoblok.revit.addindll.about
             {
                 TaskDialog dialog_CommandLink1 = new TaskDialog("Contact");
                 dialog_CommandLink1.MainInstruction =
-                        "find out more at" + " "
-                        + "http://holo-blok.com/";
+                        "http://holo-blok.com/";
 
                 dialog_CommandLink1.Show();
             }
@@ -59,7 +52,7 @@ namespace holoblok.revit.addindll.about
             {
                 TaskDialog.Show("Build Version", 
                     "Version 1.00" + "\n" 
-                    + "Complied Dec. 4 2017" + "\n" 
+                    + "Complied Dec. 16 2019" + "\n" 
                     + "josh@holo-blok.com");
             }
 

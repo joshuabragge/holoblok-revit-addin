@@ -9,11 +9,12 @@ namespace holoblok.Data
     public class NameConstants
     {
         // Ribbon
-        public const string ribbonTabOne = "holo blok";
+        public const string ribbonTabOne = "FSB";
 
-        // Categories for ribbon
+            // Categories for ribbon
         public const string categoryOne = "Appearance";
         public const string categoryTwo = "Miscellaneous";
+        public const string categoryThree = "Utilities";
 
         // Buttons
 
@@ -36,7 +37,17 @@ namespace holoblok.Data
         public const string ButtonImageMediumAbout = "holoblok_16x16_size.png";
         public const string ButtonImageLargeAbout = "holoblok_32x32_size.png";
         public const string ButtonImageOriginalAbout = "holoblok_original.JPG";
- 
+
+            // Area Button
+
+        public const string ButtonNameAreaCalculator = "Calculate Area";
+        public const string NamespaceAreaCalculator = "holoblok.Functions.AreaCalculator.AreaCalculator";
+        public const string TooltipDescriptionAreaCalculator = "Calculates the area";
+        public const string TooltipDescriptionLongAreaCalculator = "Calculates the area of each room for the active view";
+
+        public const string ButtonImageMediumAreaCalculator = "font_changer_16x16_size.png";
+        public const string ButtonImageLargeAreaCalculator = "font_changer_32x32_size.png";
+        public const string ButtonImageOriginalAreaCalculator = "font_changer_original.JPG";
 
 
         //

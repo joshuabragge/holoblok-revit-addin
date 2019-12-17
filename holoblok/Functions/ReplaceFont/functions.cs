@@ -21,7 +21,7 @@ namespace font
 
 	public static class functions
 	{
-		public static string getParameterValue(Autodesk.Revit.DB.Element curElem, string paramName)
+		public static string getParameterValue(Element curElem, string paramName)
 		{
 			string functionReturnValue = null;
 			Autodesk.Revit.DB.Parameter curParam = null;
@@ -38,7 +38,7 @@ namespace font
 			return null;
 		}
 
-		public static bool setParameterValueString(Autodesk.Revit.DB.Element curElem, string paramName, string newValue)
+		public static bool setParameterValueString(Element curElem, string paramName, string newValue)
 		{
 			bool functionReturnValue = false;
 			Autodesk.Revit.DB.Parameter curParam = curElem.GetParameters(paramName).First();

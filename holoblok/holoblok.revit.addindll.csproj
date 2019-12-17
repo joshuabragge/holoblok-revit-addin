@@ -7,7 +7,7 @@
     <OutputType>Library</OutputType>
     <MyType>Windows</MyType>
     <RootNamespace>holoblok</RootNamespace>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -33,6 +33,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <UseVSHostingProcess>true</UseVSHostingProcess>
     <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants />
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
@@ -44,12 +45,10 @@
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="PresentationCore" />
     <Reference Include="RevitAPI">
-      <HintPath>A:\Programs\Revit\Revit 2018\RevitAPI.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2020\RevitAPI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>A:\Programs\Revit\Revit 2018\RevitAPIUI.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -72,6 +71,7 @@
     <Compile Include="App.cs" />
     <Compile Include="Functions\AboutHoloblok\AboutHoloblok.cs" />
     <Compile Include="Data\NameConstants.cs" />
+    <Compile Include="Functions\AreaCalculator\AreaCalculator.cs" />
     <Compile Include="Functions\ReplaceFont\frmSelectFonts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +106,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy /s /y $(TargetDir.TrimEnd('\')) C:\Users\Jimmy\AppData\Roaming\Autodesk\Revit\Addins\2018</PostBuildEvent>
+    <PostBuildEvent>xcopy /s /y $(TargetDir.TrimEnd('\')) C:\Users\Jimmy\AppData\Roaming\Autodesk\Revit\Addins\2020</PostBuildEvent>
   </PropertyGroup>
 </Project>

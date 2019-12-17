@@ -26,6 +26,7 @@ namespace holoblok
             application.CreateRibbonTab(NameConstants.ribbonTabOne);
             // Creates categories in ribbon panel
             RibbonPanel ribbonOneCategoryOne = application.CreateRibbonPanel(NameConstants.ribbonTabOne, NameConstants.categoryOne);
+            RibbonPanel ribbonOneCategoryThree = application.CreateRibbonPanel(NameConstants.ribbonTabOne, NameConstants.categoryThree);
             RibbonPanel ribbonOneCategoryTwo = application.CreateRibbonPanel(NameConstants.ribbonTabOne, NameConstants.categoryTwo);
 
             var ButtonManager = new ButtonManager();
@@ -36,6 +37,10 @@ namespace holoblok
             // ReplaceFont Button
             PushButton _buttonReplaceFont = ButtonManager.GenerateButton(ribbonOneCategoryOne, path, NameConstants.ButtonNameReplaceFont, NameConstants.NamespaceClassReplaceFont, NameConstants.TooltipDescriptionReplaceFont, NameConstants.TooltipDescriptionLongReplaceFont);
             PushButton buttonReplaceFont = ButtonManager.AddButtonImages(_buttonReplaceFont, NameConstants.ButtonImageMediumReplaceFont, NameConstants.ButtonImageLargeReplaceFont, NameConstants.ButtonImageOriginalReplaceFont);
+
+            // Calculate Area Button
+            PushButton _buttonCalculateArea = ButtonManager.GenerateButton(ribbonOneCategoryThree, path, NameConstants.ButtonNameAreaCalculator, NameConstants.NamespaceAreaCalculator, NameConstants.TooltipDescriptionAreaCalculator, NameConstants.TooltipDescriptionLongAreaCalculator);
+            PushButton buttonAboutCalculateArea = ButtonManager.AddButtonImages(_buttonCalculateArea, NameConstants.ButtonImageMediumAreaCalculator, NameConstants.ButtonImageLargeAreaCalculator, NameConstants.ButtonImageOriginalAreaCalculator);
 
             return Result.Succeeded;
         }
